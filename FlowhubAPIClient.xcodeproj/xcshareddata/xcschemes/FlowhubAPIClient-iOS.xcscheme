@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAFB3F9019BFFFED0053F8C2"
-               BuildableName = "FlowhubAPIClient.framework"
-               BlueprintName = "FlowhubAPIClient-Mac"
+               BlueprintIdentifier = "DAFB3FB019C001D60053F8C2"
+               BuildableName = "FlowhubAPIClient-iOS.framework"
+               BlueprintName = "FlowhubAPIClient-iOS"
                ReferencedContainer = "container:FlowhubAPIClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAFB3F9B19BFFFED0053F8C2"
-               BuildableName = "FlowhubAPIClient-MacTests.xctest"
-               BlueprintName = "FlowhubAPIClient-MacTests"
+               BlueprintIdentifier = "DAFB3FBA19C001D60053F8C2"
+               BuildableName = "FlowhubAPIClient.xctest"
+               BlueprintName = "FlowhubAPIClient-iOSTests"
                ReferencedContainer = "container:FlowhubAPIClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAFB3F9B19BFFFED0053F8C2"
-               BuildableName = "FlowhubAPIClient-MacTests.xctest"
-               BlueprintName = "FlowhubAPIClient-MacTests"
+               BlueprintIdentifier = "DAFB3FBA19C001D60053F8C2"
+               BuildableName = "FlowhubAPIClient.xctest"
+               BlueprintName = "FlowhubAPIClient-iOSTests"
                ReferencedContainer = "container:FlowhubAPIClient.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,16 +56,16 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAFB3F9019BFFFED0053F8C2"
-            BuildableName = "FlowhubAPIClient.framework"
-            BlueprintName = "FlowhubAPIClient-Mac"
+            BlueprintIdentifier = "DAFB3FB019C001D60053F8C2"
+            BuildableName = "FlowhubAPIClient-iOS.framework"
+            BlueprintName = "FlowhubAPIClient-iOS"
             ReferencedContainer = "container:FlowhubAPIClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
@@ -75,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAFB3F9019BFFFED0053F8C2"
-            BuildableName = "FlowhubAPIClient.framework"
-            BlueprintName = "FlowhubAPIClient-Mac"
+            BlueprintIdentifier = "DAFB3FB019C001D60053F8C2"
+            BuildableName = "FlowhubAPIClient-iOS.framework"
+            BlueprintName = "FlowhubAPIClient-iOS"
             ReferencedContainer = "container:FlowhubAPIClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +93,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAFB3F9019BFFFED0053F8C2"
-            BuildableName = "FlowhubAPIClient.framework"
-            BlueprintName = "FlowhubAPIClient-Mac"
+            BlueprintIdentifier = "DAFB3FB019C001D60053F8C2"
+            BuildableName = "FlowhubAPIClient-iOS.framework"
+            BlueprintName = "FlowhubAPIClient-iOS"
             ReferencedContainer = "container:FlowhubAPIClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
