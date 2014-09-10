@@ -11,6 +11,16 @@
 		DAFB3FA119BFFFED0053F8C2 /* FlowhubAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DAFB3FAA19C000E70053F8C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFB3F8819BFFFED0053F8C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFB3F9019BFFFED0053F8C2;
+			remoteInfo = "FlowhubAPIClient-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		DAFB3F9119BFFFED0053F8C2 /* FlowhubAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowhubAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFB3F9519BFFFED0053F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,9 +114,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DAFB3F9019BFFFED0053F8C2 /* FlowhubAPIClient */ = {
+		DAFB3F9019BFFFED0053F8C2 /* FlowhubAPIClient-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAFB3FA419BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient" */;
+			buildConfigurationList = DAFB3FA419BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient-Mac" */;
 			buildPhases = (
 				DAFB3F8C19BFFFED0053F8C2 /* Sources */,
 				DAFB3F8D19BFFFED0053F8C2 /* Frameworks */,
@@ -117,14 +127,14 @@
 			);
 			dependencies = (
 			);
-			name = FlowhubAPIClient;
+			name = "FlowhubAPIClient-Mac";
 			productName = FlowhubAPIClient;
 			productReference = DAFB3F9119BFFFED0053F8C2 /* FlowhubAPIClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DAFB3F9B19BFFFED0053F8C2 /* FlowhubAPIClientTests */ = {
+		DAFB3F9B19BFFFED0053F8C2 /* FlowhubAPIClient-MacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAFB3FA719BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClientTests" */;
+			buildConfigurationList = DAFB3FA719BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient-MacTests" */;
 			buildPhases = (
 				DAFB3F9819BFFFED0053F8C2 /* Sources */,
 				DAFB3F9919BFFFED0053F8C2 /* Frameworks */,
@@ -133,8 +143,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				DAFB3FAB19C000E70053F8C2 /* PBXTargetDependency */,
 			);
-			name = FlowhubAPIClientTests;
+			name = "FlowhubAPIClient-MacTests";
 			productName = FlowhubAPIClientTests;
 			productReference = DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -168,8 +179,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAFB3F9019BFFFED0053F8C2 /* FlowhubAPIClient */,
-				DAFB3F9B19BFFFED0053F8C2 /* FlowhubAPIClientTests */,
+				DAFB3F9019BFFFED0053F8C2 /* FlowhubAPIClient-Mac */,
+				DAFB3F9B19BFFFED0053F8C2 /* FlowhubAPIClient-MacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +219,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAFB3FAB19C000E70053F8C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFB3F9019BFFFED0053F8C2 /* FlowhubAPIClient-Mac */;
+			targetProxy = DAFB3FAA19C000E70053F8C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DAFB3FA219BFFFED0053F8C2 /* Debug */ = {
@@ -303,7 +322,7 @@
 				INFOPLIST_FILE = FlowhubAPIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FlowhubAPIClient;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -320,7 +339,7 @@
 				INFOPLIST_FILE = FlowhubAPIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FlowhubAPIClient;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -369,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAFB3FA419BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient" */ = {
+		DAFB3FA419BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAFB3FA519BFFFED0053F8C2 /* Debug */,
@@ -377,7 +396,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DAFB3FA719BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClientTests" */ = {
+		DAFB3FA719BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient-MacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAFB3FA819BFFFED0053F8C2 /* Debug */,
