@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAC6F13D19C36AFC009049AE /* FlowhubAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */; };
 		DAFB3F9719BFFFED0053F8C2 /* FlowhubAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFB3F9619BFFFED0053F8C2 /* FlowhubAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAFB3FA119BFFFED0053F8C2 /* FlowhubAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */; };
 /* End PBXBuildFile section */
@@ -32,7 +33,7 @@
 		DAFB3F9119BFFFED0053F8C2 /* FlowhubAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowhubAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFB3F9519BFFFED0053F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFB3F9619BFFFED0053F8C2 /* FlowhubAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowhubAPIClient.h; sourceTree = "<group>"; };
-		DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowhubAPIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FlowhubAPIClientTests.xctest; path = "FlowhubAPIClient-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFB3F9F19BFFFED0053F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowhubAPIClientTests.swift; sourceTree = "<group>"; };
 		DAFB3FB119C001D60053F8C2 /* FlowhubAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowhubAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -319,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC6F13D19C36AFC009049AE /* FlowhubAPIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +596,7 @@
 				DAFB3FA619BFFFED0053F8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAFB3FA719BFFFED0053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient-MacTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +605,7 @@
 				DAFB3FA919BFFFED0053F8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAFB3FC119C001D60053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient-iOS" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +614,7 @@
 				DAFB3FC319C001D60053F8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAFB3FC419C001D60053F8C2 /* Build configuration list for PBXNativeTarget "FlowhubAPIClient-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +623,7 @@
 				DAFB3FC619C001D60053F8C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
