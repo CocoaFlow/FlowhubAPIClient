@@ -33,7 +33,7 @@
 		DAFB3F9119BFFFED0053F8C2 /* FlowhubAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowhubAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFB3F9519BFFFED0053F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFB3F9619BFFFED0053F8C2 /* FlowhubAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowhubAPIClient.h; sourceTree = "<group>"; };
-		DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FlowhubAPIClientTests.xctest; path = "FlowhubAPIClient-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClient-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlowhubAPIClient-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFB3F9F19BFFFED0053F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowhubAPIClientTests.swift; sourceTree = "<group>"; };
 		DAFB3FB119C001D60053F8C2 /* FlowhubAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowhubAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				DAFB3F9119BFFFED0053F8C2 /* FlowhubAPIClient.framework */,
-				DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClientTests.xctest */,
+				DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClient-MacTests.xctest */,
 				DAFB3FB119C001D60053F8C2 /* FlowhubAPIClient.framework */,
 				DAFB3FBB19C001D60053F8C2 /* FlowhubAPIClient-iOSTests.xctest */,
 			);
@@ -180,7 +180,7 @@
 			);
 			name = "FlowhubAPIClient-MacTests";
 			productName = FlowhubAPIClientTests;
-			productReference = DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClientTests.xctest */;
+			productReference = DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClient-MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		DAFB3FB019C001D60053F8C2 /* FlowhubAPIClient-iOS */ = {
