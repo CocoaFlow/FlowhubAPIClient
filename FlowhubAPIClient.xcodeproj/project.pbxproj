@@ -11,6 +11,8 @@
 		DAEDAFC419C6B9CC00C7244F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEDAFBC19C6B9BD00C7244F /* Nimble.framework */; };
 		DAEDAFD519C6B9EB00C7244F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEDAFCE19C6B9E000C7244F /* Quick.framework */; };
 		DAEDAFD619C6B9F900C7244F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEDAFCE19C6B9E000C7244F /* Quick.framework */; };
+		DAEDAFD819C6BB7A00C7244F /* FlowhubAPIClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEDAFD719C6BB7A00C7244F /* FlowhubAPIClientSpec.swift */; };
+		DAEDAFD919C6BB7A00C7244F /* FlowhubAPIClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEDAFD719C6BB7A00C7244F /* FlowhubAPIClientSpec.swift */; };
 		DAFB3F9719BFFFED0053F8C2 /* FlowhubAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFB3F9619BFFFED0053F8C2 /* FlowhubAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -90,6 +92,7 @@
 /* Begin PBXFileReference section */
 		DAEDAFB419C6B9BD00C7244F /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = External/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
 		DAEDAFC519C6B9E000C7244F /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = External/Quick/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
+		DAEDAFD719C6BB7A00C7244F /* FlowhubAPIClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowhubAPIClientSpec.swift; sourceTree = "<group>"; };
 		DAFB3F9119BFFFED0053F8C2 /* FlowhubAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowhubAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFB3F9519BFFFED0053F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFB3F9619BFFFED0053F8C2 /* FlowhubAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowhubAPIClient.h; sourceTree = "<group>"; };
@@ -200,6 +203,7 @@
 				DAEDAFC519C6B9E000C7244F /* Quick.xcodeproj */,
 				DAEDAFB419C6B9BD00C7244F /* Nimble.xcodeproj */,
 				DAFB3F9E19BFFFED0053F8C2 /* Supporting Files */,
+				DAEDAFD719C6BB7A00C7244F /* FlowhubAPIClientSpec.swift */,
 			);
 			path = FlowhubAPIClientTests;
 			sourceTree = "<group>";
@@ -460,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEDAFD819C6BB7A00C7244F /* FlowhubAPIClientSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEDAFD919C6BB7A00C7244F /* FlowhubAPIClientSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +629,7 @@
 		DAFB3FA819BFFFED0053F8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -635,12 +642,14 @@
 				INFOPLIST_FILE = FlowhubAPIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DAFB3FA919BFFFED0053F8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -698,6 +707,7 @@
 		DAFB3FC519C001D60053F8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -711,12 +721,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DAFB3FC619C001D60053F8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
