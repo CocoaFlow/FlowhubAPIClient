@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DAC6F13D19C36AFC009049AE /* FlowhubAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */; };
 		DAFB3F9719BFFFED0053F8C2 /* FlowhubAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFB3F9619BFFFED0053F8C2 /* FlowhubAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAFB3FA119BFFFED0053F8C2 /* FlowhubAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +33,6 @@
 		DAFB3F9619BFFFED0053F8C2 /* FlowhubAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowhubAPIClient.h; sourceTree = "<group>"; };
 		DAFB3F9C19BFFFED0053F8C2 /* FlowhubAPIClient-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlowhubAPIClient-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFB3F9F19BFFFED0053F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowhubAPIClientTests.swift; sourceTree = "<group>"; };
 		DAFB3FB119C001D60053F8C2 /* FlowhubAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowhubAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFB3FBB19C001D60053F8C2 /* FlowhubAPIClient-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlowhubAPIClient-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,7 +109,6 @@
 		DAFB3F9D19BFFFED0053F8C2 /* FlowhubAPIClientTests */ = {
 			isa = PBXGroup;
 			children = (
-				DAFB3FA019BFFFED0053F8C2 /* FlowhubAPIClientTests.swift */,
 				DAFB3F9E19BFFFED0053F8C2 /* Supporting Files */,
 			);
 			path = FlowhubAPIClientTests;
@@ -305,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFB3FA119BFFFED0053F8C2 /* FlowhubAPIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC6F13D19C36AFC009049AE /* FlowhubAPIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
